@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QuizGame</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>JavaScript Quiz ❓</h1>
+            <div id="quiz-container">
+                <div id="question-container" class="hide">
+                    <div id="question">Spørsmål</div>
+                    <div id="answer-buttons" class="button-grid"></div>
+                </div>
+                <div id="controls">
+                    <button id="start-btn" class="start-btn">Start Quiz</button>
+                    <button id="next-btn" class="next-btn hide">
+                        Neste Spørsmål
+                    </button>
+                </div>
+                <div id="results" class="hide">
+                    <h2>Resultat</h2>
+                    <p id="score">Score: 0</p>
+                </div>
+            </div>
+        </div>
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
